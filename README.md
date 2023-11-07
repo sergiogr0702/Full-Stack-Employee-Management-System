@@ -10,13 +10,13 @@
   <p align="center">
     An employee management system build with Node.js, Express.js, React.js, Redux and Mongo.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sergiogr0702/Full-Stack-Employee-Management-System"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/issues">Request Feature</a>
   </p>
 </div>
 
@@ -130,36 +130,36 @@ In this section I'm going to show briefly how the app works and the different as
 
 In this first page the departments that exists in the system are listed in a fully responsive table.
 
-[![Departments]]
+![Departments]
 
 If one of the departments names is clicked, the employees that work on that department are shown.
 
-[![Sidebar]]
+![Sidebar]
 
 To navigate to other pages in the application it is necesary to click the three rows on the upper left side to open the navigation sidebar.
 
-[![Sidebar-full]]
+![Sidebar-full]
 
 This sidebar can also be fully opened to show all the available options inside each category of search.
 
-[![Departments]]
+![Departments]
 
 To create another department or employee in the application it is only needed to navigate to the route using the navigation sidebar or pushing the create button.
 
-[![Create-department]]
-[![Create-employee]]
+![Create-department]
+![Create-employee]
 
 In this app it is also possible to update a record using the corresponding buttons on each roles in the tables. 
 This way the corresponding values are changed with a form to input the new values.
 However, only one tuple can be updated at a time. So when the update proccess is active it is imposible to delete or update other records.
 This is controlled by manteining the context of the application using Redux.
 
-[![Update]]
+![Update]
 
 Finally, it is possible to delete records in the application using the corresponding buttons in the tables.
 When that button is clicked an alert created using SweetAlert is launched to confirm the action.
 
-[![Delete]]
+![Delete]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -236,11 +236,11 @@ Project Link: [https://github.com/sergiogr0702/Full-Stack-Employee-Management-Sy
 [Docker]: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
 [Docker-url]: https://www.docker.com/
 
-[Departments]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/departments
-[Create-department]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/create-department
-[Create-employees]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/create-employees
-[Delete]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/delete
-[Department-employees]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/department-employees
-[Sidebar]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/sidebar
-[Sidebar-full]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/sidebar-full
-[Update]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/update
+[Departments]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/departments.png
+[Create-department]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/create-department.png
+[Create-employees]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/create-employees.png
+[Delete]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/delete.png
+[Department-employees]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/department-employees.png
+[Sidebar]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/sidebar.png
+[Sidebar-full]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/sidebar-full.png
+[Update]: https://github.com/sergiogr0702/Full-Stack-Employee-Management-System/blob/main/images/update.png
